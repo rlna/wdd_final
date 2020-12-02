@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+}
+body {
+  /* background: url('../images/wdd.gif'); */
+  background: url('../images/Night_stars_berlin.png');
+  background-size: 100%;
+  background-repeat: repeat-y;
+  background-position: 50% 0%;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+#skeleton {
+  padding-top: 5%;
+  margin: auto;
+  width: 15%;
+}
+.middle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.tv {
+  margin: auto;
+  /* background: url('../images/1.png'); */
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 50% -5%;
+  padding: 0;
+  width: 85%;
+  height: 100%;
+  margin: auto;
+}
+.title {
+  color: white;
+  position: fixed;
+  font-size:100px;
+  position:relative;
+  width:400px;
+  margin:0 0;
+}
+
+.button {
+  color: white;
+  width: 400px;
+  padding-top: 10%;
+  margin: auto;
+}
