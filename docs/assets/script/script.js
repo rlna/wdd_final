@@ -35,7 +35,7 @@ enter.onclick = function() {
     if (start && !mute) {
       song.play();
       playing = true;
-      setTimeout( function() {if (!w && !l && playing) {song.pause(); playing = false;}}, 17000);
+      setTimeout( function() {if (!w && !l && playing) {song.pause(); playing = false;}}, 5000);
       start = false;
     }
   }
@@ -97,6 +97,7 @@ stop.onclick = function () {
   change_br(tv, "url('assets/script/b1.png')");
   inside.style.display = "flex";
   walking.style.display = "none";
+  duck_mode.innerHTML = "DUCK MODE";
   if (playing) {
     song.pause();
     playing = false;

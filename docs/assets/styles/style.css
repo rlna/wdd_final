@@ -34,7 +34,7 @@ body {
 }
 #tv {
   margin: auto;
-  transition: background-image 3s;
+  transition: background-image .3s;
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: 50% 5%;
